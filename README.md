@@ -77,7 +77,10 @@ response = request.get(url)
 ```python
 print(response)
 ```
-Ở đây sẽ sẽ in ra request server trang web F1 là 200.
+Ở đây sẽ sẽ in ra:
+```
+<Response[200]>
+```
 
 Ta sẽ thực hiện câu lệnh này:
 ```python
@@ -85,18 +88,20 @@ if response.status_code == 200:
     soup = BeautifulSoup(response.content, 'html.parser')
 ```
 Ta được biến soup với type BeautifulSoup
-
 - Ta có thể kiểm tra 1 số thông tin với biến Soup như sau:
 ```python
 print(soup.title.text)
 ```
-Ta sẽ được dòng title với text "2024 DRIVERS STANDING"
+Ta được:
+```
+2024 DRIVERS STANDING
+```
 
-Hay
+Tiếp theo ta sử dụng
 ```python
 print(soup.tag-name)
 ```
-Để in ra các dòng có <tag-name> trong HTML
+Để in ra các dòng có tag-name trong HTML
 ```python
 print(soup.find('tag-name', class_= 'class-name'))
 ```
