@@ -7,8 +7,8 @@
     - [Setup trước khi làm Crawl Data](#setup-trước-khi-làm-crawl-data)
     - [Các bước thực hiện Crawl Data bằng Python](#các-bước-thực-hiện-crawl-data)
     - [Chương trình Python](#chương-trình-python)
-- [Kết luận]()
-- [Tài liệu tham khảo]()
+- [Kết luận](#kết-luận)
+- [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 ## Giới thiệu
 Đối với các Data Analyst, Data Engineer cũng như Data Scientist, việc cào dữ liệu (Crawl Data), một từ ngữ chuyên ngành có lẽ không quá xa lạ đối với họ, là một trong những bước quan trọng nhất trong việc xử lý dữ liệu của những người làm về lĩnh vực ấy. Vậy Crawl Data là gì? Tại sao nó lại quan trọng đến thế? Báo cáo này sẽ giúp cho mọi người có một cái nhìn rõ ràng, chi tiết hơn về những thông tin hữu ích của Crawl Data dưới đây.
 ## Định nghĩa Crawl Data
